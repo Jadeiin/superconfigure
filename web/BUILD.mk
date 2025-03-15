@@ -5,6 +5,7 @@ include web/gnupg/BUILD.mk
 include web/links/BUILD.mk
 include web/openssh/BUILD.mk
 include web/rsync/BUILD.mk
+include web/snac/BUILD.mk
 include web/wget/BUILD.mk
 
 web:\
@@ -12,6 +13,7 @@ web:\
 	o/web/git/built.fat \
 	o/web/links/built.fat \
 	o/web/rsync/built.fat \
+	o/web/snac/built.fat \
 	o/web/wget/built.fat
 
 .PHONY: web
