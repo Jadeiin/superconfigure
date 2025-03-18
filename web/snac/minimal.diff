@@ -1,0 +1,11 @@
+--- snac2/Makefile	2025-02-27 23:45:56.000000000 +0800
++++ -	2025-03-15 20:00:26.299849705 +0800
+@@ -1,6 +1,6 @@
+-PREFIX?=/usr/local
++PREFIX?=${COSMOS}
+ PREFIX_MAN=$(PREFIX)/man
+-CFLAGS?=-g -Wall -Wextra -pedantic
++CFLAGS?=-g -Wall -Wextra -pedantic -static -I$(COSMOS)/include
+ 
+ all: snac
+ 
